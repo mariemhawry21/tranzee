@@ -1,0 +1,677 @@
+﻿<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ترانزي</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./assets/favicon.png" />
+  </head>
+  <body dir="rtl">
+    <main class="">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark p-4">
+          <div class="container">
+            <!-- Toggle for small screens -->
+            <a class="navbar-brand fw-bold text-white d-lg-none" href="#">
+              <img src="./assets/logo.png" class="logo" />
+            </a>
+            <button
+              class="navbar-toggler d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobileMenu"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Desktop menu -->
+            <div
+              class="collapse navbar-collapse d-none d-lg-flex justify-content-between"
+            >
+              <a class="navbar-brand fw-bold text-white" href="#">
+                <img src="./assets/logo.png" class="logo" />
+              </a>
+              <ul class="navbar-nav text-center gap-4">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">عن ترانزي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">ليه ترانزي</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">احجز تذكرتك</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">تعلم عنا</a>
+                </li>
+              </ul>
+
+              <button class="btn btn-join px-4 py-2">انضم لينا</button>
+            </div>
+          </div>
+        </nav>
+
+        <!-- Mobile Offcanvas -->
+        <div
+          class="offcanvas offcanvas-end d-lg-none bg-tranzee"
+          tabindex="-1"
+          id="mobileMenu"
+        >
+          <div
+            class="offcanvas-header d-flex justify-content-between align-items-center w-100"
+          >
+            <h5 class="offcanvas-title text-light mb-0">القائمة</h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white m-0"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+
+          <div class="offcanvas-body text-center">
+            <ul class="navbar-nav gap-3">
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">عن ترانزي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">ليه ترانزي</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">احجز تذكرتك</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">تعلم عنا</a>
+              </li>
+            </ul>
+            <button class="btn btn-join px-4 py-2">انضم لنا</button>
+          </div>
+        </div>
+      </header>
+      <section class="hero">
+        <div
+          class="container d-flex flex-column align-items-center justify-content-center h-100"
+        >
+          <div style="position: relative; width: 60%">
+            <img src="./assets/text.png" style="width: 100%" />
+            <img
+              src="./assets/png-07.png"
+              class="icon d-block mx-auto w-25 w-md-25"
+            />
+          </div>
+          <p class="w-50 text-center my-5">
+            ترانزي هي حمله توعويه موجهه لجيل z ,تهدف الي تعزيز الاعتماد علي
+            وسائل النقل العام بدلا من السيارات الخاصه, لتقليل الزحام وتحسين جودة
+            .الحياه
+          </p>
+          <button class="btn register">
+            احجز مع ترانزي<img
+              src="./assets/yellowArrow.png"
+              style="width: 50px; margin-right: 10px"
+            />
+          </button>
+        </div>
+      </section>
+      <section class="bg-tranzee">
+        <div
+          style="background-color: #f7f7f7; border-radius: 70px 70px 0 0"
+          class="d-flex flex-column justify-content-between align-items-center py-5"
+        >
+          <div class="container" style="padding: 50px 0">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-between align-items-center"
+            >
+              <div>
+                <h2 style="font-size: 50px; margin-bottom: 40px">
+                  <img
+                    src="./assets/Asset 2.png"
+                    width="50px"
+                    class="img-fluid"
+                    style="margin-left: 20px"
+                  />ما هو ترانزي ؟
+                </h2>
+                <p style="font-weight: 400">
+                  .قد تمتلك بالفعل تطبيقات للمواصلاتو أو سيارة أو حتي دراجه
+                </p>
+                <p style="font-weight: 400">
+                  لكن كم مرة اهدرت وقتك ؟ أو تجاوزت ميزانيت؟ أو بدأت يومك بضغط
+                  او توتر
+                </p>
+              </div>
+              <img
+                src="./assets/png-04.png"
+                class="img-fluid"
+                style="width: 30%"
+              />
+            </div>
+          </div>
+          <div class="container">
+            <div
+              class="d-flex flex-column flex-lg-row justify-content-between align-items-center"
+            >
+              <div>
+                <h2
+                  style="
+                    font-size: 50px;
+                    margin-bottom: 80px;
+                    line-height: 80px;
+                  "
+                >
+                  اذا ما الذي تحتاجه<br />
+                  فعلا لتنتقل <br />بكفاءة؟
+                </h2>
+                <div style="margin-top: -70px">
+                  <p style="font-weight: 400">كل ما تحتاجه هو ترانزي.</p>
+                  <p style="font-weight: 400">
+                    ترانزي ليس وسيله مواصلات بل هو منظومة ذكية <br />تمكنك من
+                    التنقل بسلاسة, في الوثت المحدد و بأقل <br />تكلفة -- يوما
+                    بعد يوم
+                  </p>
+                </div>
+              </div>
+              <img
+                src="./assets/png-03.png"
+                class="img-fluid"
+                style="width: 40%"
+              />
+            </div>
+          </div>
+          <div class="container-fluid my-5">
+            <div class="row justify-content-center gap-3">
+              <div
+                class="col-8 col-md-4 mb-5 mb-lg-0 col-lg-2 relative card"
+                style="background-color: hsl(53, 92%, 58%, 26%); color: #ff5623"
+              >
+                <h3 style="font-size: 45px; margin: 25px 0">اوعي</h3>
+                <p>مصمم ليتماشي مع مستقبل النقل ومتاح لك الان.</p>
+                <img src="./assets/png-12.png" class="img-fluid card-img" />
+              </div>
+              <div
+                class="col-8 col-md-4 mb-5 mb-lg-0 col-lg-2 relative card"
+                style="
+                  background-color: hsl(151, 80%, 86%, 40%);
+                  color: #00633d;
+                "
+              >
+                <h3 style="font-size: 45px; margin: 25px 0">أوفر</h3>
+                <p>فلوس أقل راحه اكتر, قيمه حقيقية.</p>
+                <img src="./assets/png-09.png" class="img-fluid card-img" />
+              </div>
+              <div
+                class="col-8 col-md-4 mb-5 mb-lg-0 col-lg-2 relative card"
+                style="
+                  background-color: hsl(304, 91%, 86%, 26%);
+                  color: #f0022c;
+                "
+              >
+                <h3 style="font-size: 45px; margin: 25px 0">أسهل</h3>
+                <p>بلا ازدحام بلا تأخير</p>
+                <img src="./assets/png-10.png" class="img-fluid card-img" />
+              </div>
+              <div
+                class="col-8 col-md-4 mb-5 mb-lg-0 col-lg-2 relative card"
+                style="
+                  background-color: hsl(168, 100%, 89%, 40%);
+                  color: #4d1bb8;
+                "
+              >
+                <h3 style="font-size: 45px; margin: 25px 0">أنضف</h3>
+                <p>يعمل بطاقه نظيفة ومستدامة.</p>
+                <img src="./assets/png-11.png" class="img-fluid card-img" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="bg-tranzee d-flex flex-column align-items-center justify-content-center caro"
+              style="min-height: 100vh"
+            >
+              <div
+                class="w-100 container d-flex justify-content-between align-items-center text-white first-section"
+              >
+                <div>
+                  <h3
+                    style="
+                      font-size: 45px;
+                      color: hsl(168, 100%, 89%);
+                      margin-bottom: 20px;
+                    "
+                  >
+                    المونوريل
+                  </h3>
+                  <p class="para">
+                    وسيله نقل جماعي حديثه ومتطورة ,مرتفعه عن الارض, وبيشتغل
+                    بالكهرباء. تم تصميمةليخدم المدن الجديدة ويقلل الزحمه والتلوث
+                  </p>
+                  <p
+                    class="w-50"
+                    style="
+                      font-weight: bold;
+                      font-size: 18px;
+                      color: hsl(168, 100%, 89%);
+                    "
+                  >
+                    --المزيد
+                  </p>
+                </div>
+                <div class="tazkara">
+                  <img src="./assets/tazkaraBlue.png" style="width: 100%" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-between align-items-center my-2 w-100 circles-bg"
+                style="background-image: url(./assets/firstCircles.png)"
+              >
+                <img
+                  src="./assets/png-01.png"
+                  class="d-block car-img"
+                  alt="..."
+                />
+                <button class="btn register">
+                  احجز مع ترانزي<img
+                    src="./assets/yellowArrow.png"
+                    style="width: 50px; margin-right: 10px"
+                  />
+                </button>
+              </div>
+              <div
+                class="container d-flex justify-content-between align-items-center last-section"
+              >
+                <div class="text-white">
+                  <div>
+                    <h4>الطول</h4>
+                    <p style="font-weight: bold; color: yellow">56.5 KM</p>
+                  </div>
+                  <div>
+                    <h4>السرعه</h4>
+                    <p style="font-weight: bold; color: yellow">80 KM/S</p>
+                  </div>
+                </div>
+                <div class="text-white">
+                  <div class="my-2">
+                    <h4>تلوث اقل بنسبه</h4>
+                    <div class="range-container" data-value="90">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 class="">نقود أوفر بنسبه</h4>
+                    <div class="range-container" data-value="40">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4>ازدحتام أقل بنسبه</h4>
+                    <div class="range-container" data-value="80">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="bg-bink d-flex flex-column align-items-center justify-content-center caro"
+              style="min-height: 100vh"
+            >
+              <div
+                class="w-100 container d-flex justify-content-between align-items-center text-white first-section"
+              >
+                <div style="color: #f0022c">
+                  <h3
+                    style="font-size: 45px; color: #f0022c; margin-bottom: 20px"
+                  >
+                    الأتوبيس الكهربائي
+                  </h3>
+                  <p class="para">
+                    هو نظام نقل جماعي حديث بالكهرباءو صمم ليكون بديلا
+                    للميكروباصات علي الطريق الدائريز يتميز بسرعته ويهدف الي
+                    تقليل الازدحام والانبعاثات الضارة
+                  </p>
+                  <p
+                    class="w-50"
+                    style="font-weight: bold; font-size: 18px; color: #f0022c"
+                  >
+                    --المزيد
+                  </p>
+                </div>
+                <div class="tazkara">
+                  <img src="./assets/redTaskara.png" style="width: 100%" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-between align-items-center my-2 w-100 circles-bg"
+                style="background-image: url(./assets/redCricles.png)"
+              >
+                <img
+                  src="./assets/png-17.png"
+                  class="d-block car-img"
+                  alt="..."
+                />
+                <button class="btn register" style="background-color: #f0022c">
+                  احجز مع ترانزي<img
+                    src="./assets/redarrow.png"
+                    style="width: 50px; margin-right: 10px"
+                  />
+                </button>
+              </div>
+              <div
+                class="container d-flex justify-content-between align-items-center last-section"
+              >
+                <div class="text-white">
+                  <div>
+                    <h4 style="color: #a30729">المقاعد</h4>
+                    <p style="font-weight: bold; color: #f0022c">49 KM</p>
+                  </div>
+                  <div>
+                    <h4 style="color: #a30729">السرعه</h4>
+                    <p style="font-weight: bold; color: #f0022c">70 KM/S</p>
+                  </div>
+                </div>
+                <div class="text-white">
+                  <div class="my-2">
+                    <h4 style="color: #a30729">تلوث اقل بنسبه</h4>
+                    <div
+                      class="range-container"
+                      style="background-color: hsl(349, 98%, 47%, 50%)"
+                      data-value="90"
+                    >
+                      <div
+                        class="filled"
+                        style="background-color: #f0022c"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 style="color: #a30729">نقود أوفر بنسبه</h4>
+                    <div
+                      class="range-container"
+                      style="background-color: hsl(349, 98%, 47%, 50%)"
+                      data-value="40"
+                    >
+                      <div
+                        class="filled"
+                        style="background-color: #f0022c"
+                      ></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 style="color: #a30729">ازدحتام أقل بنسبه</h4>
+                    <div
+                      class="range-container"
+                      style="background-color: hsl(349, 98%, 47%, 50%)"
+                      data-value="80"
+                    >
+                      <div
+                        class="filled"
+                        style="background-color: #f0022c"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="bg-green d-flex flex-column align-items-center justify-content-center caro"
+              style="min-height: 100vh"
+            >
+              <div
+                class="w-100 container d-flex justify-content-between align-items-center text-white first-section"
+              >
+                <div>
+                  <h3
+                    style="font-size: 45px; color: #c0f8dd; margin-bottom: 20px"
+                  >
+                    المترو
+                  </h3>
+                  <p class="para">
+                    نظام نقل جماعي منظم ينقل ملايين الركاب يوميا بسرعه بعيدا عن
+                    زحام الشوارع وهو وسيلة اقتصاديه جدا وتقليل الازدحام
+                    والانبعاث الجوي
+                  </p>
+                  <p
+                    class="w-50"
+                    style="font-weight: bold; font-size: 18px; color: #c0f8dd"
+                  >
+                    --المزيد
+                  </p>
+                </div>
+                <div class="tazkara">
+                  <img src="./assets/greenTaskara.png" style="width: 100%" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-between align-items-center my-2 w-100 circles-bg"
+                style="background-image: url(./assets/greenCircles.png)"
+              >
+                <img
+                  src="./assets/png-19.png"
+                  class="d-block car-img"
+                  alt="..."
+                />
+                <button class="btn register" style="background-color: #003a22">
+                  احجز مع ترانزي<img
+                    src="./assets/greenArrow.png"
+                    style="width: 50px; margin-right: 10px"
+                  />
+                </button>
+              </div>
+              <div
+                class="container d-flex justify-content-between align-items-center last-section"
+              >
+                <div class="text-white">
+                  <div>
+                    <h4 style="color: white">المحطات</h4>
+                    <p style="font-weight: bold; color: yellow">اكثر من 16</p>
+                  </div>
+                  <div>
+                    <h4 style="color: white">السرعه</h4>
+                    <p style="font-weight: bold; color: yellow">80 KM/S</p>
+                  </div>
+                </div>
+                <div class="text-white">
+                  <div class="my-2">
+                    <h4>تلوث اقل بنسبه</h4>
+                    <div class="range-container" data-value="90">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 class="">نقود أوفر بنسبه</h4>
+                    <div class="range-container" data-value="40">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4>ازدحتام أقل بنسبه</h4>
+                    <div class="range-container" data-value="80">
+                      <div class="filled"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="b-beige d-flex flex-column align-items-center justify-content-center caro"
+              style="min-height: 100vh"
+            >
+              <div
+                class="w-100 container d-flex justify-content-between align-items-center text-white first-section"
+              >
+                <div>
+                  <h3
+                    style="font-size: 45px; color: #ff5623; margin-bottom: 20px"
+                  >
+                    القطار الكهربائي
+                  </h3>
+                  <p class="para" style="color: #ff5623">
+                    وهو وسيلة نقل حديثة تم اطلاقها حديثا ضمن خطة تطوير النقل في
+                    مصرو وبيخدم المدن الجديدة وخاصه شرق القاهرة.
+                  </p>
+                  <p
+                    class="w-50"
+                    style="font-weight: bold; font-size: 18px; color: #ff5623"
+                  >
+                    --المزيد
+                  </p>
+                </div>
+                <div class="tazkara">
+                  <img src="./assets/orangeTaskara.png" style="width: 100%" />
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-between align-items-center my-2 w-100 circles-bg"
+                style="background-image: url(./assets/yellowCircles.png)"
+              >
+                <img
+                  src="./assets/png-06.png"
+                  class="d-block car-img"
+                  alt="..."
+                />
+                <button class="btn register" style="background-color: #ff5623">
+                  احجز مع ترانزي<img
+                    src="./assets/orangeArrow.png"
+                    style="width: 50px; margin-right: 10px"
+                  />
+                </button>
+              </div>
+              <div
+                class="container d-flex justify-content-between align-items-center last-section"
+              >
+                <div class="text-white">
+                  <div>
+                    <h4 style="color: #a30729">المحطات</h4>
+                    <p style="font-weight: bold; color: #ff5623">اكثر من 7</p>
+                  </div>
+                  <div>
+                    <h4 style="color: #a30729">السرعه</h4>
+                    <p style="font-weight: bold; color: #ff5623">120 KM/S</p>
+                  </div>
+                </div>
+                <div class="text-white">
+                  <div class="my-2">
+                    <h4 style="color: #a30729">تلوث اقل بنسبه</h4>
+                    <div class="range-container" data-value="90">
+                      <div class="filled" style="color: #ff5623"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 class="" style="color: #a30729">نقود أوفر بنسبه</h4>
+                    <div class="range-container" data-value="40">
+                      <div class="filled" style="color: #ff5623"></div>
+                    </div>
+                  </div>
+                  <div class="my-2">
+                    <h4 style="color: #a30729">ازدحتام أقل بنسبه</h4>
+                    <div class="range-container" data-value="80">
+                      <div class="filled" style="color: #ff5623"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div style="min-height: 100vh"></div>
+      <div class="bg-tranzee p-5">
+        <footer
+          class="container bg-tranzee w-100 w-md-50 d-flex flex-column flex-md-row justify-content-between align-items-center text-white"
+        >
+          <div class="right">
+            <img src="./assets/png-25.png" />
+          </div>
+          <div class="d-flex flex-column info left">
+            <h3
+              style="
+                font-size: 45px;
+                margin-bottom: 20px;
+                width: 100%;
+                text-align: left;
+              "
+            >
+              تواصل معنا
+            </h3>
+            <div class="d-flex align-items-center">
+              <p>0123456789</p>
+              <img src="./assets/phone.png" style="width: 50px" />
+            </div>
+            <div class="d-flex align-items-center">
+              <p>tranzee20@gmail.com</p>
+              <img src="./assets/gmail.png" style="width: 50px" />
+            </div>
+            <div
+              class="d-flex justify-content-center"
+              style="padding-left: 10px; margin: 20px 0"
+            >
+              <img src="./assets/insta.png" />
+              <img src="./assets/tiktok.png" />
+              <img src="./assets/facebook.png" />
+            </div>
+            <button class="btn register" style="width: 50%">
+              احجز مع ترانزي<img
+                src="./assets/yellowArrow.png"
+                style="width: 50px; margin-right: 10px"
+              />
+            </button>
+          </div>
+        </footer>
+      </div>
+      <!-- footer -->
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.min.js"
+      integrity="sha384-VQqxDN0EQCkWoxt/0vsQvZswzTHUVOImccYmSyhJTp7kGtPed0Qcx8rK9h9YEgx+"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.querySelectorAll(".range-container").forEach((container) => {
+        const value = container.getAttribute("data-value");
+        const filled = container.querySelector(".filled");
+        filled.style.width = value + "%";
+      });
+    </script>
+  </body>
+</html>
