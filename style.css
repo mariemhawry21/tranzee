@@ -152,6 +152,9 @@ header nav {
 .para {
   width: 50%;
 }
+.beforeFooter {
+  border-radius: 100px 100px 0 0;
+}
 
 footer .right {
   width: 50%;
@@ -192,6 +195,9 @@ footer .left {
     justify-content: center;
     align-items: center;
   }
+  footer .right img{
+    width: 50%;
+  }
   footer .left {
     width: 100%;
     justify-content: center !important;
@@ -203,6 +209,21 @@ footer .left {
   }
   footer .left button {
     width: 100% !important;
+  }
+  .fonte {
+    font-size: 2rem !important;
+    margin: 0;
+    width: 100% !important;
+    line-height: 45px !important;
+    margin-bottom: 40px !important;
+  }
+  .teat {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+  .hello{
+    padding: 50px;
+    align-items: start !important;
   }
 }
 
