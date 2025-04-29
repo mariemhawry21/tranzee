@@ -145,9 +145,9 @@ header nav {
 }
 .first-section {
   margin-bottom: -200px;
+  align-items: flex-end !important;
 }
 .tazkara {
-  width: 250px;
 }
 .tazkara img {
   width: 250px !important;
@@ -189,9 +189,6 @@ footer .left {
   .first-section {
     padding-top: 50px;
     margin-bottom: 0;
-  }
-  .tazkara {
-    width: 350px;
   }
   .tazkara img {
     width: 250px !important;
