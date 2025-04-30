@@ -109,7 +109,7 @@ header nav {
   height: 2px;
   background-color: hsl(53, 92%, 58%, 50%);
   border-radius: 5px;
-  margin: 20px 0;
+  margin-top: 20px;
 }
 .filled {
   position: absolute;
@@ -123,8 +123,9 @@ header nav {
 }
 
 .last-section {
-  margin-top: -350px;
+  margin-top: -300px;
   padding-bottom: 50px;
+  align-items: flex-end !important;
 }
 .bg-bink {
   background-color: #fcc6f9;
@@ -138,28 +139,29 @@ header nav {
   color: A30729; */
 }
 .circles-bg {
-  padding: 160px;
+  padding: 150px;
   background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
 }
 .first-section {
-  margin-bottom: -200px;
-  align-items: flex-end !important;
+  margin-bottom: -250px;
+  align-items: flex-start !important;
 }
 .tazkara {
-  width: 250px
+  width: 200px;
 }
 .tazkara img {
-  
 }
 .para {
-  width: 50%;
+  width: 40%;
 }
 .beforeFooter {
   border-radius: 100px 100px 0 0;
 }
-
+.caro {
+  padding: 40px 0 !important;
+}
 footer .right {
   width: 50%;
 }
