@@ -149,7 +149,7 @@ header nav {
   align-items: flex-start !important;
 }
 .tazkara {
-  width: 100px;
+  width: 200px !important;
 }
 .tazkara img {
 }
