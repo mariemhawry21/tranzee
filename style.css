@@ -148,10 +148,10 @@ header nav {
   align-items: flex-end !important;
 }
 .tazkara {
+  width: 250px
 }
 .tazkara img {
-  width: 250px !important;
-  height: 250px !important;
+  
 }
 .para {
   width: 50%;
@@ -191,8 +191,8 @@ footer .left {
     margin-bottom: 0;
   }
   .tazkara img {
-    width: 250px !important;
-    height: 250px !important;
+    width: 150px !important;
+    height: 150px !important;
   }
   .para {
     width: 100%;
