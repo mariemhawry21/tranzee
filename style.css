@@ -151,8 +151,6 @@ header nav {
 .tazkara {
   width: 200px !important;
 }
-.tazkara img {
-}
 .para {
   width: 40%;
 }
@@ -171,6 +169,9 @@ footer .right img {
 footer .left {
   width: 50%;
   align-items: flex-end;
+}
+.social img {
+  width: 30px !important;
 }
 
 @media (max-width: 850px) {
