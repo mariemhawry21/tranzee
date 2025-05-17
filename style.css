@@ -261,6 +261,6 @@ footer .left {
 }
  .carousel-item video {
   width: 100%;
-  height: 500px;
+  height: 90vh;
   object-fit: cover;
 }
