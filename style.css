@@ -59,7 +59,7 @@ header nav {
 .icon {
   position: absolute;
   left: -50px;
-  bottom: -20px;
+  bottom: -30px;
   /* animation: loop 10s linear infinite; */
 }
 @keyframes loop {
