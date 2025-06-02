@@ -1,6 +1,9 @@
 .bg-bink {
   background-color: #fcc6f9;
 }
+main {
+  padding: 20px;
+}
 .left {
   width: 60% !important;
 }
@@ -11,7 +14,6 @@
   background-color: #f5f5f5;
   text-align: right;
   width: 40%;
-  margin-right: 30px;
 }
 form {
   margin: 0 50px;
@@ -42,7 +44,7 @@ form {
   margin-top: 30px;
 }
 .right a {
-    display: block;
+  display: block;
   color: black;
   text-decoration: none;
   margin-top: 10px;
@@ -50,4 +52,19 @@ form {
 }
 .right a span {
   font-weight: bold;
+}
+
+@media (max-width: 850px) {
+  .left {
+    display: none;
+  }
+  .right {
+    width: 100%;
+    margin: 0;
+  }
+  .right h1 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 30px;
+  }
 }
